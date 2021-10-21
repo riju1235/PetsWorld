@@ -51,7 +51,7 @@ h5 {
 #feature {
     padding:1% 15%;
     text-align: center;
-    background-color: rgb(253, 238, 215);
+    background-color: rgb(247, 217, 171);
 }
 .feature-1 {
     padding:3%;
@@ -61,4 +61,28 @@ h5 {
 }
 .icon:hover {
     color: red;
+}
+
+/*Pet art Section*/
+
+#petart {
+    padding :1% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    background-image: url("C:/Users/rjmon/OneDrive/Desktop/PetsWorld/photo/4.jpg");
+}
+.pet-text{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.img-thumbnail{
+    background-color: #ffffff;
+    width:fit-content;
+    margin: 5px;
+}
+.img-thumbnail:hover {
+    cursor: pointer;
+    transition: transform 400ms ease-in-out;
+    transform: scale(1.1);
 }
