@@ -21,7 +21,6 @@ h5 {
 .navbar {
     padding-bottom: 3rem;
 }
-
 .navbar-brand {
     font-family: 'Rampart One', cursive;
     padding-right:20px;
@@ -75,6 +74,13 @@ h5 {
     font-size: 100px;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
+}
+#line {
+    color: white;
+    padding:0% 15%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+
 }
 .img-thumbnail{
     background-color: #ffffff;
