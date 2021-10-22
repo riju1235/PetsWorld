@@ -17,7 +17,6 @@ h5 {
 }
 
 /*Navigation bar*/
-
 .navbar {
     padding-bottom: 3rem;
 }
@@ -34,6 +33,7 @@ h5 {
     transition: transform 200ms ease-in-out;
     transform: scale(1.1);
 }
+
 /*Downloads Buttons*/
 .download-btn{
     margin: 5% 3% 5% 0;
@@ -63,24 +63,22 @@ h5 {
 }
 
 /*Pet art Section*/
-
 #petart {
     padding :1% 15%;
     text-align: center;
     background-color: #ef8172;
-    background-image: url("photo/4.jpg");
+    background-image: url("C:/Users/rjmon/OneDrive/Desktop/PetsWorld/photo/4.jpg");
 }
 .pet-text{
     font-size: 100px;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
-#line {
+.line {
     color: white;
     padding:0% 15%;
     margin: 0 auto;
     margin-bottom: 4%;
-
 }
 .img-thumbnail{
     background-color: #ffffff;
@@ -91,4 +89,61 @@ h5 {
     cursor: pointer;
     transition: transform 400ms ease-in-out;
     transform: scale(1.1);
+}
+
+/*Feedback*/
+#feedback {
+    padding :1% 15%;
+    background-color: rgb(253, 243, 229);
+}
+.feedback-line{
+    color: rgb(0, 0, 0);
+    padding:0% 15%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+#opinion {
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 45px;
+}
+.feedback-main {
+    max-width: 400px;
+    margin:0 auto;
+}
+
+/*Footer*/
+.footer {
+    padding :1% 15%;
+    background: rgb(0, 0, 0);
+    color: #16e0bd;
+    text-align: center;
+    padding: 2.5em 0;
+}
+.footer a {
+    color: #16e0bd;
+    text-decoration: none;
+}
+.footer__link {
+    font-size: 150%;
+}
+.footer__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+.footer__link:hover {
+    text-decoration: underline;
+}
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+.social-list__item {
+    margin: 0 .5em;
+}
+.social-list__link {
+    padding: .5em;
 }
